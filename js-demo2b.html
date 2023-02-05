@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>My Second Web Page</title>
+
+<link rel="stylesheet" href="demo.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head> 	
+<body>
+
+<div id="container">
+
+<header>My Web Site Brand</header>
+<nav>
+	<ul>
+    <li><a href="js-demo2.html">Home</a></li>
+    <li><a href="js-demo2b.html">About</a></li>
+    <li><a href="js-demo2d.html">Gallery</a></li>
+    <li><a href="js-demo2c.html">Contact</a></li>
+	</ul>
+</nav>
+
+<main>
+  <h1>My Second Heading</h1>
+  <p>My Second paragraph.</p>
+
+  <table>
+    <caption>Activities at the cliffs</caption>
+    <thead>
+        <tr id="showheading" class="tdhighlight">
+            <th>Activity</th>
+            <th>West Cliff </th>
+            <th>North Cliff</th>
+            <th>East Cliff</th>
+            <th>South Cliff</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr id="showcalories" class="tdhighlight">
+            <td>Hiking</td>
+            <td>college Hikes</td> 
+            <td>Family Fun</td>
+            <td>Treasure Trafs</td>
+            <td>Canyon Explorer</td>
+        </tr>
+        <tr id="showfat">
+            <td>Kayak</td>
+            <td>Western Kayak Meetup</td> 
+            <td id="not">Not Available</td>
+            <td>Youth Kayaking</td>
+            <td>Kayak Down</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr id="showven">
+            <td>Skydiving</td>
+            <td>Seacliff Diving</td>
+            <td>Sky is the limit</td>
+            <td id="not-available">Not Available</td>
+            <td>Sky Diving For beginners</td>
+        </tr>
+    </tfoot>
+    </table>
+
+    <input type = "button" id = "btn" value = "Load Data" style="margin-top:20px;" />
+
+
+<div id="displaySelected">
+    <div id="result">
+        <h4>My selected activities to enquire: </h4>
+    </div>
+    <div id="sendinfo">
+        <input type="email" id="email" placeholder="johndoe@gmail.com"/>
+
+        <button id="info">Get Info</button>
+
+    </div>
+
+
+</div>
+
+</main>
+
+<footer>&copy; Copyright 2020</footer>
+
+</div>
+
+<script src="js/activity.js"></script>
+
+</body>
+</html>
